@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.329
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinPhraseAI", "MinPhraseAI\MinPhraseAI.csproj", "{DF27E4D8-7AE1-401E-88CE-70EF8B36E10D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinPhraseAI", "MinPhraseAI\MinPhraseAI.csproj", "{DF27E4D8-7AE1-401E-88CE-70EF8B36E10D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestPhraseAI", "TestPhraseAI\TestPhraseAI.csproj", "{B74402CB-71F9-45A3-99EB-0F461C724FE1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiscordPhraseAI", "DiscordPhraseAI\DiscordPhraseAI.csproj", "{8D94FFFE-8AE8-484B-A28D-8C0CB1FC9F92}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{DF27E4D8-7AE1-401E-88CE-70EF8B36E10D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF27E4D8-7AE1-401E-88CE-70EF8B36E10D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF27E4D8-7AE1-401E-88CE-70EF8B36E10D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B74402CB-71F9-45A3-99EB-0F461C724FE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B74402CB-71F9-45A3-99EB-0F461C724FE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B74402CB-71F9-45A3-99EB-0F461C724FE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B74402CB-71F9-45A3-99EB-0F461C724FE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D94FFFE-8AE8-484B-A28D-8C0CB1FC9F92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D94FFFE-8AE8-484B-A28D-8C0CB1FC9F92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D94FFFE-8AE8-484B-A28D-8C0CB1FC9F92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D94FFFE-8AE8-484B-A28D-8C0CB1FC9F92}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

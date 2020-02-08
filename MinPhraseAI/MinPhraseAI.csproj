@@ -1,7 +1,13 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <TargetFrameworks>net471;netcoreapp2.1</TargetFrameworks>
+	<RuntimeIdentifiers>win;linux-arm;linux-x86;linux-x64</RuntimeIdentifiers>
+	<AssemblyVersion>1.5.0.0</AssemblyVersion>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MySql.Data" Version="8.0.15" />
+  </ItemGroup>
 
 </Project>
