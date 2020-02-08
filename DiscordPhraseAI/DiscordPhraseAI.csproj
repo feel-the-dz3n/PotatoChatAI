@@ -13,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\MinPhraseAI\MinPhraseAI\MinPhraseAI.csproj" />
+    <ProjectReference Include="..\MinPhraseAI\MinPhraseAI.csproj" />
   </ItemGroup>
 
   <ItemGroup>
